@@ -1,0 +1,522 @@
+/* login.css */
+body{
+    margin: 0px;
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    align-content: center;
+}
+.login{
+    text-align: center;
+    margin-top: 70px;
+}
+.forgetpswd{
+    
+}
+.createnew{
+}
+.lang{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    padding: 30px;
+}
+img{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 40%;
+
+    
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+button{
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(37, 37, 239);
+    border: 1px solid rgb(37, 37, 239);
+}
+.forgetpswd{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+a{
+    margin-top:10px ;
+}
+.createnew{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.metalogo{
+    
+    text-align: center;
+    margin-bottom: ;
+}
+.loginfooter{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+
+}
+
+/* reel.css */
+body{
+    margin: 0px;
+    background-color: rgb(250, 245, 245);
+}
+.reelid{
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.relthreedots{
+    margin: 5px;
+}
+.belowreelpost{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    text-align: right;
+    margin-left: 350px;
+    margin-top: -100px;
+    color: white;
+    gap: 5px;
+}
+.belowhomepost{
+    display: flex;
+    margin-left: 10px;
+}
+.reellike{
+    width: 10%;
+
+}
+.reelcomment{
+    width: 10%;
+
+}
+.reelsendarrow{
+    width: 10%;
+
+}
+.box1, .box2, .box3{
+    width: 100%;
+}
+.box2, .box3{
+    margin-top: 20px;
+}
+.reelfooterprofile{
+    width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+        padding-top:5px ;
+
+}
+.reelhomefooter{
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 0px;
+}
+.reellikedbydp{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin-right: 5px;
+
+ 
+}
+.reellikecount{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.reelcaption,#posttime{
+    margin-left: 5px;
+}
+.reelthreedots{
+    margin: 5px;
+}
+.lastreelcaption{
+    margin-bottom: 50px;
+    margin-left: 5px;
+
+}
+/* view.css */
+
+.posts{
+    display: flex;
+    width: 100vw;
+    margin: 0px;
+
+}
+.post{
+    width: 119px;
+    height: 230px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.post2{
+    width: 180px;
+    height: 250px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+}
+.search{
+        width: 100%;
+        height: 20px;
+        padding: 5px;
+        background-color: rgb(208, 204, 204);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    input{
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(208, 204, 204);
+        width: 90%;
+
+    }
+    .footerprof{
+        width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 5px;
+            padding-top:5px ;
+    
+    }
+    .viewfooter{
+        width: 100vw;
+        height: 50px;
+        background-color: white;
+        position: fixed;
+        bottom: 0px;
+        display: grid;
+        height: 40px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 0px;
+}
+
+/* homepage.css */
+body{
+    margin: 0px;
+    background-color: rgb(250, 245, 245);
+}
+.head{
+    display: flex;
+    height: 50px;
+    margin: 5px;
+    margin-top: 5px;
+}
+.instafont{
+    font-family: sans-serif;
+    color: black;
+    width: 100px;
+
+}
+.like1{
+    width: 28px;
+    height: 28px;
+    padding-left: 190px;
+    margin-top: 15px;
+
+}
+.comment1{
+    width: 28px;
+    height: 28px;
+    justify-content: flex-end;
+    margin-right: 5px;
+    padding-left: 15px;
+    margin-top: 15px;
+
+}
+.imgone{
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.secondpart{
+    display: flex;
+    height: 100px;
+}
+figcaption{
+    text-align: center;
+}
+.homepostdiv{
+    display: flex;
+}
+.homepostdp{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 5px;
+
+}
+.frndonepost{
+    width: 80%;
+}
+.threedots{
+    margin: 5px;
+}
+
+.homepost{
+    
+    height: 100px;
+    margin: 10px;
+    padding: 2px;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+   
+}
+.belowhomepost{
+    display: flex;
+    margin-left: 10px;
+}
+.like2{
+    width: 10%;
+
+}
+.comment2{
+    width: 10%;
+
+}
+.sendarrow1{
+    width: 10%;
+
+}
+.saveicon1{
+    width: 70%;
+    text-align: right;
+    margin-right: 20px;
+}
+.box{
+    width: 100%;
+}
+#footerprofile{
+    width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+        padding-top:5px ;
+
+}
+#homefooter{
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 0px;
+}
+#likedbydp{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin-right: 5px;
+
+ 
+}
+#likecount{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#lastposttime{
+    margin-bottom: 40px;
+    color: gray;
+
+}
+#caption,#posttime{
+    margin-left: 5px;
+}
+#posttime{
+    color: gray;
+}
+
+/* forgetpswd.css */
+
+body{
+    margin: 0px;
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    align-content: center;
+}
+.login{
+    text-align: center;
+    margin-top: 80px;
+}
+.forgetpswd{
+    
+}
+.createnew{
+}
+.lang{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    padding: 30px;
+}
+img{
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    margin-left: 28%;
+
+    
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+button{
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(37, 37, 239);
+    border: 1px solid rgb(37, 37, 239);
+}
+.forgetpswd{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+a{
+    margin-top:10px ;
+}
+.createnew{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.metalogo{
+    
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 45%;
+}
+.loginfooter{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+
+}
+
+/* createnewaccount.css */
+
+body{
+    margin: 0px;
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    align-content: center;
+}
+.login{
+    text-align: center;
+    margin-top: 80px;
+}
+.forgetpswd{
+    
+}
+.createnew{
+}
+.lang{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    padding: 30px;
+}
+img{
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    margin-left: 28%;
+
+    
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+button{
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(37, 37, 239);
+    border: 1px solid rgb(37, 37, 239);
+}
+.forgetpswd{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+a{
+    margin-top:10px ;
+}
+.createnew{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.metalogo{
+    
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 45%;
+}
+.loginfooter{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+
+}
+ 
