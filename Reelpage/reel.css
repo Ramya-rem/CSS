@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: rgb(250, 245, 245);
+}
+.reelid{
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.relthreedots{
+    margin: 5px;
+}
+.belowreelpost{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    text-align: right;
+    margin-left: 350px;
+    margin-top: -100px;
+    color: white;
+    gap: 5px;
+}
+.belowhomepost{
+    display: flex;
+    margin-left: 10px;
+}
+.reellike{
+    width: 10%;
+
+}
+.reelcomment{
+    width: 10%;
+
+}
+.reelsendarrow{
+    width: 10%;
+
+}
+.box1, .box2, .box3{
+    width: 100%;
+}
+.box2, .box3{
+    margin-top: 20px;
+}
+.reelfooterprofile{
+    width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+        padding-top:5px ;
+
+}
+.reelhomefooter{
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 0px;
+}
+.reellikedbydp{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin-right: 5px;
+
+ 
+}
+.reellikecount{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.reelcaption,#posttime{
+    margin-left: 5px;
+}
+.reelthreedots{
+    margin: 5px;
+}
+.lastreelcaption{
+    margin-bottom: 50px;
+    margin-left: 5px;
+
+}
